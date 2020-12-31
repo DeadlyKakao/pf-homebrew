@@ -1,0 +1,269 @@
+\documentclass[
+	ngerman,
+	a4paper,
+	11pt,
+	twocolumn,
+]{scrartcl}
+
+\usepackage[T1]{fontenc}		% aus Vorlage: Darstellung von Umlauten
+\usepackage{babel}				% aus Vorlage: Vorgaben auf Deutsch (Inhaltsverzeichnis, Datum, Silbentrennung...)
+%\usepackage[utf8]{inputenx}		% Deutsche Schreibweisen
+
+\usepackage[scale=0.8]{geometry}
+\usepackage{float}
+\usepackage{booktabs}			% Unterschiedlich starke horizontale Linien in Tabellen
+\usepackage{caption}
+\usepackage{tabularx}
+\usepackage{xcolor}
+
+\usepackage{opensans}
+
+%\usepackage{hyperref}
+
+\captionsetup[table]{justification=justified,singlelinecheck=off,labelfont=bf}
+
+\newlength{\thicktableline}
+\newlength{\thintableline}
+\newlength{\aboveline}
+\newlength{\belowline}
+\setlength{\thicktableline}{1pt}
+\setlength{\thintableline}{0.25pt}
+\setlength{\aboveline}{0pt}
+\setlength{\belowline}{0pt}
+
+\newlength{\savevspace}
+\newlength{\spellvspace}
+\setlength{\savevspace}{1ex}
+\setlength{\spellvspace}{1ex}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\setkomafont{section}{\huge\normalfont\bfseries}
+
+\begin{document}
+
+\section*{Klasse}
+
+\rule[2ex]{0.49\textwidth}{1pt}
+
+
+
+\textbf{Rolle:}
+
+\textbf{Gesinnung:} 
+
+\textbf{Trefferwürfel:} W
+
+\subsection*{Klassenfertigkeiten}
+
+Akrobatik (GE), Auftreten (CH), Beruf (WE), Bluffen (CH), Diplomatie (CH), Einschüchtern (CH), Entfesselungskunst (GE), Fingerfertigkeit (GE), Fliegen (GE), Handwerk (IN), Heilkunde (WE), Heimlichkeit (GE), Klettern (ST), Magischen Gegenstand benutzen (CH), Mit Tieren umgehen (CH), Motiv erkennen (WE), Reiten (GE), Schätzen (IN), Schwimmen (ST), Sprachenkunde (IN), Überlebenskunst (WE), Verkleiden (CH), Wahrnehmung (WE), Wissen (Adel) (IN), Wissen (Arkanes) (IN), Wissen (Baukunst) (IN), Wissen (Die Ebenen) (IN), Wissen (Geographie) (IN), Wissen (Geschichte) (IN), Wissen (Gewölbekunde) (IN), Wissen (Lokales) (IN), Wissen (Natur) (IN), Wissen (Religion) (IN), Zauberkunde (IN).
+
+\textbf{Fertigkeitspunkte je Stufe:}  + IN-Modifikator
+
+\subsection*{Klassenmerkmale}
+
+\textbf{Klassenmerkmal:}
+
+
+
+
+	
+%Klassentabelle ohne Zauber pro Tag
+
+\begin{table*}[htbp]
+	\centering
+	\caption{Klasse}
+	\footnotesize
+	\begin{tabularx}{\textwidth}{llcccX}
+		\textbf{Stufe}	&\textbf{GAB}	&\textbf{REF}	&\textbf{WIL}	&\textbf{ZÄH}	&\textbf{Speziell}	\\	\specialrule{\thicktableline}{\aboveline}{\belowline}
+		1		&+1				&+0		&+0		&+2		&Besonders langes Klassenmerkmal, sehr sehr lang, funktioniert der Zeilenumbruch?	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		2		&+2				&+0		&+0		&+3		&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		3		&+3				&+1		&+1		&+3		&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		4		&+4				&+1		&+1		&+4		&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		5		&+5				&+1		&+1		&+4		&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		6		&+6/+1			&+2		&+2		&+5		&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		7		&+7/+2			&+2		&+2		&+5		&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		8		&+8/+3			&+2		&+2		&+6		&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		9		&+9/+4			&+3		&+3		&+6		&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		10		&+10/+5			&+3		&+3		&+7		&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		11		&+11/+6/+1		&+3		&+3		&+7		&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		12		&+12/+7/+2		&+4		&+4		&+8		&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		13		&+13/+8/+3		&+4		&+4		&+8		&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		14		&+14/+9/+4		&+4		&+4		&+9		&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		15		&+15/+10/+5		&+5		&+5		&+9		&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		16		&+16/+11/+6/+1	&+5		&+5		&+10	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		17		&+17/+12/+7/+2	&+5		&+5		&+10	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		18		&+18/+13/+8/+3	&+6		&+6		&+11	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		19		&+19/+14/+9/+4	&+6		&+6		&+11	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		20		&+20/+15/+10/+5	&+6		&+6		&+12	&	\\	\specialrule{\thicktableline}{\aboveline}{\belowline}
+	\end{tabularx}
+\end{table*}
+
+
+
+%Klassentabelle mit Zaubern pro Tag (Grad 4)
+
+\begin{table*}[htbp]
+	\centering
+	\caption{Klasse}
+	\footnotesize
+	\begin{tabularx}{\textwidth}{
+			llc@{\hspace{\savevspace}}c@{\hspace{\savevspace}}cX
+			c@{\hspace{\spellvspace}\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}\hspace{\spellvspace}}
+			c}
+		\multicolumn{6}{c}{}	&\multicolumn{4}{c}{\textbf{Zauber pro Tag}}	\\
+		\textbf{Stufe}	&\textbf{GAB}	&\textbf{REF}	&\textbf{WIL}	&\textbf{ZÄH}	&\textbf{Speziell}	&\textbf{1.}	&\textbf{2.}	&\textbf{3.}	&\textbf{4.}	\\	\specialrule{\thicktableline}{\aboveline}{\belowline}
+		1		&+1				&+0		&+2		&+2		&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		2		&+2				&+0		&+3		&+3		&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		3		&+3				&+1		&+3		&+3		&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		4		&+4				&+1		&+4		&+4		&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		5		&+5				&+1		&+4		&+4		&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		6		&+6/+1			&+2		&+5		&+5		&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		7		&+7/+2			&+2		&+5		&+5		&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		8		&+8/+3			&+2		&+6		&+6		&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		9		&+9/+4			&+3		&+6		&+6		&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		10		&+10/+5			&+3		&+7		&+7		&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		11		&+11/+6/+1		&+3		&+7		&+7		&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		12		&+12/+7/+2		&+4		&+8		&+8		&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		13		&+13/+8/+3		&+4		&+8		&+8		&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		14		&+14/+9/+4		&+4		&+9		&+9		&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		15		&+15/+10/+5		&+5		&+9		&+9		&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		16		&+16/+11/+6/+1	&+5		&+10	&+10	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		17		&+17/+12/+7/+2	&+5		&+10	&+10	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		18		&+18/+13/+8/+3	&+6		&+11	&+11	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		19		&+19/+14/+9/+4	&+6		&+11	&+11	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		20		&+20/+15/+10/+5	&+6		&+12	&+12	&	&	&	&	&	\\	\specialrule{\thicktableline}{\aboveline}{\belowline}
+	\end{tabularx}
+\end{table*}
+
+
+
+%Klassentabelle mit Zaubern pro Tag (Grad 6)
+
+\begin{table*}[htbp]
+	\centering
+	\caption{Klasse}
+	\footnotesize
+	\begin{tabularx}{\textwidth}{
+			llc@{\hspace{\savevspace}}c@{\hspace{\savevspace}}cX
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c}
+		\multicolumn{6}{c}{}	&\multicolumn{7}{c}{\textbf{Zauber pro Tag}}	\\
+		\textbf{Stufe}	&\textbf{GAB}	&\textbf{REF}	&\textbf{WIL}	&\textbf{ZÄH}	&\textbf{Speziell}	&\textbf{0.}	&\textbf{1.}	&\textbf{2.}	&\textbf{3.}	&\textbf{4.}	&\textbf{5.}	&\textbf{6.}	\\	\specialrule{\thicktableline}{\aboveline}{\belowline}
+		1		&+0			&+2		&+2		&+0		&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		2		&+1			&+3		&+3		&+0		&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		3		&+2			&+3		&+3		&+1		&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		4		&+3			&+4		&+4		&+1		&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		5		&+3			&+4		&+4		&+1		&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		6		&+4			&+5		&+5		&+2		&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		7		&+5			&+5		&+5		&+2		&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		8		&+6/+1		&+6		&+6		&+2		&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		9		&+6/+1		&+6		&+6		&+3		&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		10		&+7/+2		&+7		&+7		&+3		&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		11		&+8/+3		&+7		&+7		&+3		&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		12		&+9/+4		&+8		&+8		&+4		&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		13		&+9/+4		&+8		&+8		&+4		&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		14		&+10/+5		&+9		&+9		&+4		&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		15		&+11/+6/+1	&+9		&+9		&+5		&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		16		&+12/+7/+2	&+10	&+10	&+5		&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		17		&+12/+7/+2	&+10	&+10	&+5		&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		18		&+13/+8/+3	&+11	&+11	&+6		&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		19		&+14/+9/+4	&+11	&+11	&+6		&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		20		&+15/+10/+5	&+12	&+12	&+6		&	&	&	&	&	&	&	&	\\	\specialrule{\thicktableline}{\aboveline}{\belowline}
+	\end{tabularx}
+\end{table*}
+
+%Klassentabelle mit bekannten Zaubern (Grad 6)
+
+\begin{table}[htbp]
+	\centering
+	\caption{Der Klasse bekannte Zauber}
+	\footnotesize
+	\begin{tabularx}{\textwidth}{
+			l
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c}
+		\multicolumn{1}{c}{}	&\multicolumn{7}{c}{Grad bekannter Zauber}	\\
+		\textbf{Stufe}	&0.	&1.	&2.	&3.	&4.	&5.	&6.	\\	\specialrule{\thicktableline}{\aboveline}{\belowline}
+		1	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		2	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		3	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		4	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		5	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		6	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		7	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		8	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		9	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		10	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		11	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		12	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		13	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		14	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		15	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		16	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		17	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		18	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		19	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		20	&	&	&	&	&	&	&	\\	\specialrule{\thicktableline}{\aboveline}{\belowline}
+	\end{tabularx}
+\end{table}
+
+
+
+%Klassentabelle mit Zaubern pro Tag (Grad 9)
+
+\begin{table*}[htbp]
+	\centering
+	\caption{Klasse}
+	\footnotesize
+	\begin{tabularx}{\textwidth}{
+			llc@{\hspace{\savevspace}}c@{\hspace{\savevspace}}cX
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c}
+		\multicolumn{6}{c}{}	&\multicolumn{10}{c}{\textbf{Zauber pro Tag}}	\\
+		\textbf{Stufe}	&\textbf{GAB}	&\textbf{REF}	&\textbf{WIL}	&\textbf{ZÄH}	&\textbf{Speziell}	&\textbf{0.}	&\textbf{1.}	&\textbf{2.}	&\textbf{3.}	&\textbf{4.}	&\textbf{5.}	&\textbf{6.}	&\textbf{7.}	&\textbf{8.}	&\textbf{9.}	\\	\specialrule{\thicktableline}{\aboveline}{\belowline}
+		1		&+0		&+0		&+2		&+0		&Besonders langes Klassenmerkmal, sehr sehr lang, funktioniert der Zeilenumbruch?	&	&	&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		2		&+1		&+0		&+3		&+0		&	&	&	&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		3		&+1		&+1		&+3		&+1		&	&	&	&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		4		&+2		&+1		&+4		&+1		&	&	&	&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		5		&+2		&+1		&+4		&+1		&	&	&	&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		6		&+3		&+2		&+5		&+2		&	&	&	&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		7		&+3		&+2		&+5		&+2		&	&	&	&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		8		&+4		&+2		&+6		&+2		&	&	&	&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		9		&+4		&+3		&+6		&+3		&	&	&	&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		10		&+5		&+3		&+7		&+3		&	&	&	&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		11		&+5		&+3		&+7		&+3		&	&	&	&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		12		&+6/+1	&+4		&+8		&+4		&	&	&	&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		13		&+6/+1	&+4		&+8		&+4		&	&	&	&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		14		&+7/+2	&+4		&+9		&+4		&	&	&	&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		15		&+7/+2	&+5		&+9		&+5		&	&	&	&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		16		&+8/+3	&+5		&+10	&+5		&	&	&	&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		17		&+8/+3	&+5		&+10	&+5		&	&	&	&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		18		&+9/+4	&+6		&+11	&+6		&	&	&	&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		19		&+9/+4	&+6		&+11	&+6		&	&	&	&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		20		&+10/+5	&+6		&+12	&+6		&	&	&	&	&	&	&	&	&	&	&	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+	\end{tabularx}
+\end{table*}
+
+
+\end{document}

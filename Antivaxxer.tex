@@ -1,0 +1,321 @@
+\documentclass[
+	ngerman,
+	a4paper,
+	10pt,
+	twocolumn,
+]{scrartcl}
+
+\usepackage[T1]{fontenc}		% aus Vorlage: Darstellung von Umlauten
+\usepackage{babel}				% aus Vorlage: Vorgaben auf Deutsch (Inhaltsverzeichnis, Datum, Silbentrennung...)
+%\usepackage[utf8]{inputenx}		% Deutsche Schreibweisen
+
+\usepackage[scale=0.8]{geometry}
+\usepackage{float}
+\usepackage{booktabs}			% Unterschiedlich starke horizontale Linien in Tabellen
+\usepackage{caption}
+\usepackage{tabularx}
+\usepackage{xcolor}
+
+\usepackage{opensans}
+
+\usepackage{hyperref}
+
+\captionsetup[table]{justification=justified,singlelinecheck=off,labelfont=bf}
+
+\newlength{\thicktableline}
+\newlength{\thintableline}
+\newlength{\aboveline}
+\newlength{\belowline}
+\setlength{\thicktableline}{1pt}
+\setlength{\thintableline}{0.25pt}
+\setlength{\aboveline}{0pt}
+\setlength{\belowline}{0pt}
+
+\newlength{\savevspace}
+\newlength{\spellvspace}
+\setlength{\savevspace}{1ex}
+\setlength{\spellvspace}{1ex}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\setkomafont{section}{\Huge\normalfont}
+
+\begin{document}
+
+\section*{Antivaxxer}
+
+\rule[2ex]{0.49\textwidth}{1pt}
+
+Für manche Abenteurer ist Gold nicht der größte Lohn für das Bestehen unvorstellbarer Gefahren und das Meistern jeder noch so schwierigen Herausforderung. Sie treibt der Durst nach Wissen und das Streben danach, die Wahrheit über das Universum zu enthüllen. Der Antivaxxer ist das genaue Gegenteil dieser Abenteurer. Wider besseres Wissen und ohne Rücksicht auf die Gesundheit Anderer hat er es sich in freiwilliger Unkenntnis und erstaunlicher Ignoranz zur Aufgabe gemacht, so viele seiner unfundierten Verschwörungstheorien wie nur möglich in die Welt hinauszublasen. An Fakten und Wissenschaft ist er dabei in keiner Weise interessiert, widerlegen die meisten Gelehrten doch regelmäßig seine kruden und völlig an den Haaren herbeigezogenen Ansichten.
+
+Die meisten Antivaxxer stammen aus isolierten Gemeinschaften und Filterblasen, in denen ihre verschwurbelten Ansichten durch Trolle sorgfältig kultiviert und entwickelt wurden. Durch diese jahre- oder jahrzehntelangen Prozesse ist der Verstand eines Antivaxxers ungewöhnlich resistent gegenüber allem, was ihm die Unwahrheit seiner gefestigten Überzeugungen vermitteln will.
+
+\textbf{Rolle:} Antivaxxer zeichnen sich durch eine extreme Willenskraft gegenüber Wissenschaft und Fakten aus. Sie sind natürliche Demagogen und geübt darin, mit einer Flut von Falschaussagen und missinterpretierten oder sogar gefälschten Daten und Statistiken alles und jeden in Zweifel zu ziehen. Sie arbeiten meist im Hintergrund und säen Missgunst unter ihren Zielen, bevor sie öffentlich auftreten und die Früchte ihrer harten und unehrlichen Arbeit ernten. Im Kampf nutzen die meisten Antivaxxer Verzauberungen und Nekromantie, um ihre Gegner körperlich und geistig zu schwächen.
+
+\textbf{Gesinnung:} Jede nicht gute.
+
+\textbf{Trefferwürfel:} W8
+
+\subsection*{Klassenfertigkeiten}
+
+Auftreten (CH), Beruf (WE), Bluffen (CH), Diplomatie (CH), Einschüchtern (CH), Fliegen (GE), Handwerk (IN), Heimlichkeit (GE), Magischen Gegenstand benutzen (CH), Motiv erkennen (WE), Schätzen (IN), Verkleiden (CH), Wissen (Adel) (IN), Wissen (Arkanes) (IN), Wissen (Die Ebenen) (IN), Wissen (Geschichte) (IN), Wissen (Lokales) (IN), Wissen (Religion) (IN), Zauberkunde (IN).
+
+\textbf{Fertigkeitspunkte je Stufe:} 4 + IN-Modifikator
+
+\begin{table*}[t]
+	\centering
+	\caption{Antivaxxer}
+	\label{tab:Antivaxxer}
+	\small
+	\begin{tabularx}{\textwidth}{
+			llc@{\hspace{\savevspace}}c@{\hspace{\savevspace}}cX
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c}
+		\multicolumn{6}{c}{}	&\multicolumn{6}{c}{\textbf{Zauber pro Tag}}	\\
+		\textbf{Stufe}	&\textbf{GAB}	&\textbf{REF}	&\textbf{WIL}	&\textbf{ZÄH}	&\textbf{Speziell}	&\textbf{1.}	&\textbf{2.}	&\textbf{3.}	&\textbf{4.}	&\textbf{5.}	&\textbf{6.}	\\	\specialrule{\thicktableline}{\aboveline}{\belowline}
+		1		&+0			&+0		&+2		&+0		&Ablehnung der Medizin, Terrorresistenz, Wortgewandt
+		&1	&--	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		2		&+1			&+0		&+3		&+0		&Kenntnis von Inhaltsstoffen, Stimme der Unvernunft
+		&2	&--	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		3		&+2			&+1		&+3		&+1		&Intelligenz niederstrecken 1/Tag
+		&3	&--	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		4		&+3			&+1		&+4		&+1		&Dunning-Kruger-Effekt, Realitätsleugnung
+		&3	&1	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		5		&+3			&+1		&+4		&+1		&Intelligenz niederstrecken 2/Tag, Pestilente Ignoranz
+		&4	&2	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		6		&+4			&+2		&+5		&+2		&1. Verschwörungstheorie
+		&4	&3	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		7		&+5			&+2		&+5		&+2		&Intelligenz niederstrecken 3/Tag
+		&4	&3	&1	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		8		&+6/+1		&+2		&+6		&+2		&Schlächter der Hölle, Verbesserter Dunning-Kruger-Effekt
+		&4	&4	&2	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		9		&+6/+1		&+3		&+6		&+3		&Intelligenz niederstrecken 4/Tag
+		&5	&4	&3	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		10		&+7/+2		&+3		&+7		&+3		&
+		&5	&4	&3	&1	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		11		&+8/+3		&+3		&+7		&+3		&Intelligenz niederstrecken 5/Tag, Starke \newline Realitätsleugnung
+		&5	&4	&4	&2	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		12		&+9/+4		&+4		&+8		&+4		&2. Verschwörungstheorie
+		&5	&5	&4	&3	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		13		&+9/+4		&+4		&+8		&+4		&Intelligenz niederstrecken 6/Tag
+		&5	&5	&4	&3	&1	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		14		&+10/+5		&+4		&+9		&+4		&
+		&5	&5	&4	&4	&2	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		15		&+11/+6/+1	&+5		&+9		&+5		&Intelligenz niederstrecken 7/Tag
+		&5	&5	&5	&4	&3	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		16		&+12/+7/+2	&+5		&+10	&+5		&
+		&5	&5	&5	&4	&3	&1	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		17		&+12/+7/+2	&+5		&+10	&+5		&Intelligenz niederstrecken 8/Tag
+		&5	&5	&5	&4	&4	&2	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		18		&+13/+8/+3	&+6		&+11	&+6		&3. Verschwörungstheorie
+		&5	&5	&5	&5	&4	&3	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		19		&+14/+9/+4	&+6		&+11	&+6		&Intelligenz niederstrecken 9/Tag
+		&5	&5	&5	&5	&5	&4	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		20		&+15/+10/+5	&+6		&+12	&+6		&Wahre Realitätsleugnung
+		&5	&5	&5	&5	&5	&5	\\	\specialrule{\thicktableline}{\aboveline}{\belowline}
+	\end{tabularx}
+\end{table*}
+
+\subsection*{Klassenmerkmale}
+
+Die nachfolgenden Fähigkeiten sind Klassenmerkmale des Antivaxxers.
+
+\textbf{Umgang mit Waffen und Rüstungen:} Ein Antivaxxer ist im Umgang mit allen einfachen Waffen und leichten Rüstungen, aber nicht mit Schilden geübt. Ein Antivaxxer kann arkane Zauber ohne Zauberpatzerchance wirken, solange er keine oder leichte Rüstung und keinen Schild trägt.
+
+\textbf{Ablehnung der Medizin:} Ein Antivaxxer lehnt gängige Heilungsmethoden ab. Aufgrund des Nocebo-Effektes heilen Zauber und Fähigkeiten, die Trefferpunktschaden wiederherstellen, bei ihm 50\,\% weniger. Aufgrund der Anpassung seines Körpers an sogenannte \glqq Essential Oils\grqq{} kann ein Antivaxxer sich mit einer vollen Aktion mit einer Anwendung Alchemistenfeuer einreiben und auf diese Weise 1W4 pro zwei Antivaxxerstufen (min. 1W4) heilen.
+
+\textbf{Terrorresistenz:} Attentate sind nur ein Mittel der Eliten, um den kleinen Mann zu kontrollieren. Der Antivaxxer hat dieses teuflische Vorgehen jedoch durchblickt und lässt sich nicht mehr einschüchtern. Der SG, ihn mit der Fertigkeit Einschüchtern zu demoralisieren, steigt um 5. Zudem erhält er einen Inkompetenzbonus von +2 auf Wissen (Adel).
+
+\textbf{Wortgewandt:} Als Teil seines manipulativen Geschwurbels erhält der Antivaxxer auf der 1. Stufe das Talent "Beredsamkeit". Weiterhin kann ein Antivaxxer Einschüchtern als Alternative zu Fertigkeitswürfen auf Wissen (Natur) und Wissen (Religion) nutzen. In diesem Fall steigt der Bonus auf Einschüchtern um +2.
+
+\textbf{Zauber:} Ein Antivaxxer kann arkane Zauber wirken, die er aus der Zauberliste für Antivaxxer auswählt. Er kann alle Zauber wirken,  die er kennt, ohne sie vorbereiten zu müssen. Um einen Zauber zu lernen oder um ihn anzuwenden, muss ein Antivaxxer mindestens über ein Charisma von 10 + Grad des Zaubers verfügen. Der Schwierigkeitsgrad von Rettungswürfen gegen die Zauber des Antivaxxers ist 10 + Grad des Zaubers + CH-Modifikator des Antivaxxers.
+
+Wie andere Zauberkundige kann ein Antivaxxer nur eine bestimmte Menge von Zaubern je Stufe pro Tag wirken. Seine tägliche Anzahl an Zaubern ist in \autoref{tab:Antivaxxer} angegeben. Zusätzlich erhält er Bonuszauber für einen hohen Charismawert. Die Zauberauswahl des Antivaxxers ist sehr begrenzt.
+
+Ein Antivaxxer beginnt das Spiel mit vier Zaubern des 0. Grads und zwei Zaubern des 1. Grads seiner Wahl. Jede Stufe erhält er einen oder mehrere Zauber hinzu, wie in \autoref{tab:Antivaxxer_bekannt} zu erkennen ist. (Anders als die tägliche Anzahl von Zaubern wird diese Zahl nicht durch das Charisma des Antivaxxers verändert.)
+
+Wenn er die 5. Stufe erreicht, und dann alle drei weiteren Stufen (8., 11., usw.), kann der Antivaxxer einen Zauber, den er kennt, gegen einen neuen austauschen. Er verliert dann den alten Zauber und ersetzt ihn durch einen neuen. Beide Zauber müssen den gleichen Grad haben und sie müssen mindestens einen Grad niedriger sein als der höchste Grad des Zaubers, den der Antivaxxer zur Verfügung hat. Der Antivaxxer kann auf einer Stufe aber nur einen Zauber wechseln und muss sich dafür entscheiden, sobald er neue Zauber erhält.
+
+Ein Antivaxxer muss seine Zauber nicht vorbereiten, sondern kann jeden Zauber wirken, den er kennt, vorausgesetzt er hat noch ausreichend Zauber pro Tag zur Verfügung.
+
+\textbf{Kenntnis von Inhaltsstoffen:} Mit Beginn der 2. Stufe erlangt der Antivaxxer zweifelhafte Kenntnisse über die Inhaltsstoffe von Impfstoffen, die ihm einen Inkompetenzbonus von +5 auf Fertigkeitswürfe für Alchemie verleihen.
+
+\textbf{Stimme der Unvernunft:} Auf der 2. Stufe lernt der Antivaxxer, seine Stimme und sein Wissen um die Impfverschwörung als Waffe einzusetzen. Als Standard-Aktion kann er eine Flut aus wirrem Geschwurbel auf einen einzelnen Gegner entfesseln. Dem Ziel muss ein Willenswurf gegen SG 10 + 1/2 Antivaxxerstufe + CH-Modifikator gelingen, um nicht für eine Runde benommen zu sein. Der Antivaxxer kann diese Fähigkeit 3 + CH-Mod. Mal am Tag einsetzen. Dies ist ein geistesbeeinflussender Effekt. Auf der 10. Stufe erhöht sich die Dauer auf 2 Runden und auf der 18. auf 3 Runden.
+
+\textbf{Intelligenz niederstrecken:} Antivaxxer sind erbitterte Feinde der Intelligenz und versuchen wann immer möglich, sie im Keim zu ersticken. Ab der 3. Stufe kann er Antivaxxer ein Mal pro Tag als Schnelle Aktion ein Ziel mit einem Intelligenzwert von mindestens 10 auswählen. Gegen dieses Ziel erhält er einen Bonus in Höhe seines Charisma-Modifikators auf Angriffs- und Schadenswürfe. Diese Fähigkeit bleibt aktiv, bis das Ziel stirbt oder der Antivaxxer das nächste Mal seine Zauberplätze zurückerlangt. Schlägt der Einsatz dieser Fähigkeit aufgrund eines zu geringen Intelligenzwertes des Ziels fehl, wird keine tägliche Anwendung verbraucht. Alle 2 Stufen ab der 3. Stufe kann der Antivaxxer diese Fähigkeit einmal zusätzlich am Tag einsetzen, bis zu einem Maximum von 9 Mal auf der 19. Stufe.
+
+\textbf{Dunning-Kruger-Effekt:} Ab der 4. Stufe wandelt der Antivaxxer Unwissen in Selbstvertrauen um. Er kann sämtliche Fertigkeitswürfe ungeübt durchführen, erleidet dabei allerdings einen Malus von -2 bei Fertigkeiten, in denen er keinen Fertigkeitsrang besitzt.
+
+\textbf{Realitätsleugnung (AF):} Ab der 4. Stufe ist der Antivaxxer ein Experte darin, sich selbst zu belügen. Immer dann, wenn er seine Zauberplätze zurückerlangt, kann er die Realität in einem wütenden Anfall von Flüchen und faktenfreien Anschuldigungen komplett verleugnen. Er erhält einen Malus von -4 auf Intelligenz und einen Inkompetenzbonus von +2 auf alle Willenswürfe. Gegen Geistesbeeinflussung steigt dieser Bonus auf +4. Der Effekt kann nicht freiwillig beendet werden, sondern endet mit dem nächsten Zurückerlangen der Zauberplätze (woraufhin er allerdings direkt wieder aktiviert werden kann).
+
+\textbf{Pestilente Ignoranz (AF):} Mit Beginn der 5. Stufe kann ein Antivaxxer etwaige Gefahren durch Krankheiten und Gifte in seiner Ignoranz wegdiskutieren. Er kann ein Mal pro Tag einen Zähigkeitswurf gegen einen Krankheits- oder Gifteffekt durch einen Willenswurf ersetzen. Alle 5 Stufen ab der 5. kann der Antivaxxer diese Fähigkeit ein weiteres Mal pro Tag einsetzen, bis zu einem Maximum von 4 Mal auf der 20. Stufe.
+
+\textcolor{red}{Rettungswürfe durch Fertigkeitswürfe zu ersetzen ist eine sehr passende Idee, aber komplett broken, weil Fertigkeitswürfe ganz anders skalieren als Rettungswürfe. Wenn man hier Einschüchtern statt ZÄH nutzen dürfte, kann man damit einen Erfolg garantieren, was auch irgendwie doof ist.}
+
+\textbf{Verschwörungstheorien:} Neben der Impfgegnerschaft wählt der Antivaxxer mit der 6. Stufe eine weitere Verschwörungstheorie, die ihm zusätzliche Kräfte verleiht. Diese Wahl kann später nicht mehr geändert werden. Auf der 12. und 18. Stufe wählt der Antivaxxer jeweils eine weitere Verschwörungstheorie.
+
+\textbf{Schlächter der Hölle:} Mit der 8. Stufe wird dem Antivaxxer der Einfluss der Hölle auf die verfaulenden Eliten bewusst. Er studiert ausgiebig den Ursprung und die Wirkungsweise gegen die Hölle. Seine Wissenswürfe gegen böse Externare erhöhen sich um +2. Außerdem erhält der Antivaxxer einen Verständnisbonus von +1 auf Angriffswürfe und RK gegen böse Externare.
+
+\textbf{Verbesserter Dunning-Kruger-Effekt:} Ab der 8. Stufe ist das Selbstvertrauen des Antivaxxers bei Aktivitäten, die er nicht beherrscht, unerschütterlich. Er erhält keinen Malus mehr auf Würfe in Fertigkeiten, in denen er ungeübt ist.
+
+\textbf{Starke Realitätsleugnung (AF):} Beginnend mit der 11. Stufe steigen die Boni des Antivaxxers auf Willenswürfe auf +4 und auf +8 gegen Geistesbeeinflussung, wenn er Realitätsleugnung einsetzt. Der Malus auf Intelligenz bleibt unverändert. Einmal pro Tag kann er den Effekt als augenblickliche Aktion für 1 Minute unterdrücken, um einen fehlgeschlagenen Willenswurf zu wiederholen. Er muss das Ergebnis des zweiten Wurfes behalten, selbst wenn dieses schlechter sein sollte.
+
+\textbf{Wahre Realitätsleugnung (AF):} Auf der 20. Stufe wird der Antivaxxer zu einer Bastion der Selbsttäuschung. Er wird immun gegen Geistesbeeinflussung und der Bonus auf Willenswürfe steigt auf +6. Sein Intelligenzwert ändert sich zu 0 und kann keinesfalls gesteigert werden. Er erleidet allerdings nicht die typischen Effekte, die ein Intelligenzwert von 0 mit sich brächte, z.\,B. Bewusstlosigkeit. Zudem kann er seinen Charismamodifikator anstelle seines Intelligenzmodifikators für alle IN-basierten Fertigkeitswürfe nutzen. Seine Boni auf Diplomatie und Einschüchtern aus dem Klassenmerkmal Wortgewandt verdoppeln sich.
+
+
+
+%\textbf{Rassismus:} Beginnend mit der 5. Stufe kann der Antivaxxer einer beliebigen Volksgruppe die wahre Schuld an seinem eigenen Versagen zuschieben. Er und Verbündete im Umkreis von sechs Metern erhalten enen Bonus auf +2 auf Fertigkeitswürfe in Wahrnehmung, Einschüchtern und Motiv erkennen gegen Angehörige des gewählten Volkes. Außerdem erhalten er und seine Verbündeten einen Bonus von +1 auf Angriffs-, Schadens- und Rettungswürfe gegen die gewählte Volksgruppe. Alle fünf weiteren Stufen wählt der Antivaxxer eine zuätzliche Volksgruppe.
+
+
+
+\begin{table}[htbp]
+	\centering
+	\caption{Dem Antivaxxer bekannte Zauber}
+	\label{tab:Antivaxxer_bekannt}
+	\footnotesize
+	\begin{tabularx}{0.4\textwidth}{lXXXXXXX}
+		\multicolumn{1}{c}{}	&\multicolumn{7}{c}{\textbf{Grad bekannter Zauber}}	\\
+		\textbf{Stufe}	&\textbf{0.}	&\textbf{1.}	&\textbf{2.}	&\textbf{3.}	&\textbf{4.}	&\textbf{5.}	&\textbf{6.}	\\	\specialrule{\thicktableline}{\aboveline}{\belowline}
+		1	&4	&2	&--	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		2	&5	&3	&--	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		3	&6	&4	&--	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		4	&6	&4	&2	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		5	&6	&4	&3	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		6	&6	&4	&4	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		7	&6	&5	&4	&2	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		8	&6	&5	&4	&3	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		9	&6	&5	&4	&4	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		10	&6	&5	&5	&4	&2	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		11	&6	&6	&5	&4	&3	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		12	&6	&6	&5	&4	&4	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		13	&6	&6	&5	&5	&4	&2	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		14	&6	&6	&6	&5	&4	&3	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		15	&6	&6	&6	&5	&4	&4	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		16	&6	&6	&6	&5	&5	&4	&2	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		17	&6	&6	&6	&6	&5	&4	&3	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		18	&6	&6	&6	&6	&5	&4	&4	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		19	&6	&6	&6	&6	&5	&5	&4	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		20	&6	&6	&6	&6	&6	&5	&5	\\	\specialrule{\thicktableline}{\aboveline}{\belowline}
+	\end{tabularx}
+\end{table}
+
+\subsection*{Verschwörungstheorien}
+
+\textcolor{red}{Work in progress}
+
+\textbf{Echsenmenschen:} Der Antivaxxer hat die wahren reptiloiden Gesichtszüge der adligen Elite erkannt und sich über die Schwachstellen dieser genauestens informiert. Er und seine Verbündeten erhalten einen Kompetenzbonus von +1 auf Angriffs- un Schadenswürfe gegen adlige Gegner sowie Anführer von Gruppen.
+
+\textbf{Flacherdler:} Die wahre geometrische Beschaffenheit der Welt wird dem Antivaxxer deutlich. Er und seine Verbündeten sind in der Lage, in schwierigem Gelände zu rennen.
+
+\textbf{Chemtrails:} Resistenz gegen Gifte und/oder Boni gegen fliegende Gegner?
+
+\textbf{Brunnenvergiftung}
+
+\textbf{(Jüdische) Weltverschwörung}
+
+\textbf{QAnon}
+
+\textbf{Reichsflugscheiben}
+
+\textbf{Mondlandung} (Mit dem Twist, dass nun jemand dort LEBT)
+
+\textbf{Leugnung einer bestimmten Krankheit}
+
+\textbf{Area 51}
+
+\textbf{Umvolkung}
+
+\textbf{Implantierung von Überwachungschips}
+
+\textbf{Holocaustleugnung}
+
+\textbf{Reichsbürger}
+
+\textbf{Klimawandel}
+
+\subsection*{Antivaxxerzauber}
+
+\textcolor{red}{Work in progress}
+
+\subsubsection*{Antivaxxerzauber des Grades 0}
+
+\textbf{Bannmagie:} \textit{}
+\textbf{Beschwörung:} \textit{}
+\textbf{Erkenntnis:} \textit{}
+\textbf{Hervorrufung:} \textit{}
+\textbf{Illusion:} \textit{}
+\textbf{Nekromantie:} \textit{}
+\textbf{Verwandlung:} \textit{}
+\textbf{Verzauberung:} \textit{}
+
+\subsubsection*{Antivaxxerzauber des Grades 1}
+
+\textbf{Bannmagie:} \textit{}
+\textbf{Beschwörung:} \textit{}
+\textbf{Erkenntnis:} \textit{}
+\textbf{Hervorrufung:} \textit{}
+\textbf{Illusion:} \textit{}
+\textbf{Nekromantie:} \textit{}
+\textbf{Verwandlung:} \textit{}
+\textbf{Verzauberung:} \textit{}
+
+\subsubsection*{Antivaxxerzauber des Grades 2}
+
+\textbf{Bannmagie:} \textit{}
+\textbf{Beschwörung:} \textit{}
+\textbf{Erkenntnis:} \textit{}
+\textbf{Hervorrufung:} \textit{}
+\textbf{Illusion:} \textit{}
+\textbf{Nekromantie:} \textit{}
+\textbf{Verwandlung:} \textit{}
+\textbf{Verzauberung:} \textit{}
+
+\subsubsection*{Antivaxxerzauber des Grades 3}
+
+\textbf{Bannmagie:} \textit{}
+\textbf{Beschwörung:} \textit{}
+\textbf{Erkenntnis:} \textit{}
+\textbf{Hervorrufung:} \textit{}
+\textbf{Illusion:} \textit{}
+\textbf{Nekromantie:} \textit{}
+\textbf{Verwandlung:} \textit{}
+\textbf{Verzauberung:} \textit{}
+
+\subsubsection*{Antivaxxerzauber des Grades 4}
+
+\textbf{Bannmagie:} \textit{}
+\textbf{Beschwörung:} \textit{}
+\textbf{Erkenntnis:} \textit{}
+\textbf{Hervorrufung:} \textit{}
+\textbf{Illusion:} \textit{}
+\textbf{Nekromantie:} \textit{}
+\textbf{Verwandlung:} \textit{}
+\textbf{Verzauberung:} \textit{}
+
+\subsubsection*{Antivaxxerzauber des Grades 5}
+
+\textbf{Bannmagie:} \textit{}
+\textbf{Beschwörung:} \textit{}
+\textbf{Erkenntnis:} \textit{}
+\textbf{Hervorrufung:} \textit{}
+\textbf{Illusion:} \textit{}
+\textbf{Nekromantie:} \textit{}
+\textbf{Verwandlung:} \textit{}
+\textbf{Verzauberung:} \textit{}
+
+\subsubsection*{Antivaxxerzauber des Grades 6}
+
+\textbf{Bannmagie:} \textit{}
+\textbf{Beschwörung:} \textit{}
+\textbf{Erkenntnis:} \textit{}
+\textbf{Hervorrufung:} \textit{}
+\textbf{Illusion:} \textit{}
+\textbf{Nekromantie:} \textit{}
+\textbf{Verwandlung:} \textit{}
+\textbf{Verzauberung:} \textit{}
+
+\end{document}

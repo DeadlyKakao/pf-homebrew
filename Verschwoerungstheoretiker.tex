@@ -1,0 +1,350 @@
+\documentclass[
+	ngerman,
+	a4paper,
+	11pt,
+	twocolumn,
+]{scrartcl}
+
+\usepackage[T1]{fontenc}		% aus Vorlage: Darstellung von Umlauten
+\usepackage{babel}				% aus Vorlage: Vorgaben auf Deutsch (Inhaltsverzeichnis, Datum, Silbentrennung...)
+%\usepackage[utf8]{inputenx}		% Deutsche Schreibweisen
+
+\usepackage[scale=0.8]{geometry}
+\usepackage{float}
+\usepackage{booktabs}			% Unterschiedlich starke horizontale Linien in Tabellen
+\usepackage{caption}
+\usepackage{tabularx}
+\usepackage{xcolor}
+
+\usepackage{opensans}
+
+\usepackage{hyperref}
+
+\captionsetup[table]{justification=justified,singlelinecheck=off,labelfont=bf}
+
+\newlength{\thicktableline}
+\newlength{\thintableline}
+\newlength{\aboveline}
+\newlength{\belowline}
+\setlength{\thicktableline}{1pt}
+\setlength{\thintableline}{0.25pt}
+\setlength{\aboveline}{0pt}
+\setlength{\belowline}{0pt}
+
+\newlength{\savevspace}
+\newlength{\spellvspace}
+\setlength{\savevspace}{1ex}
+\setlength{\spellvspace}{1ex}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\setkomafont{section}{\huge\normalfont}
+
+\begin{document}
+
+\section*{Verschwörungstheoretiker}
+
+\rule[2ex]{0.49\textwidth}{1pt}
+
+Wo auch immer Fakten existieren, sind Verschwörungstheoretiker, um diese zurückzuweisen. Verschwörungstheoretiker nutzen ihr Charisma, um dort Zweifel zu erzeugen, wo Konsens ist. Mit kruden und unfundierten Theorien fordern sie die Wahrheit heraus und bringen manipulierbare Kreaturen ins Grübeln, bis diese nicht mehr wissen, was wahr ist und was nicht. Es geht ihnen dabei niemals um die Wahrheit. Stur wie ein Stein beharren sie auf ihrer unhaltbaren Position, egal mit wie vielen Beweisen und Gegenargumenten sie konfrontiert werden, und verteidigen, was nicht zu verteidigen ist.
+
+Von sich selbst behaupten Verschwörungstheoretiker, dass sie die einzigen seien, die tatsächlich hinter den Vorhang schauen könnten, und dass alle anderen die Welt nicht im Ansatz verstehen könnten. Aus dem Nichts erschaffen Sie Zusammenhänge, um Dinge miteinander in Verbindung zu bringen, die nicht das Geringste miteinander zu tun haben.
+
+\textbf{Rolle:} Verschwörungstheoretiker sind geschickte Manipulatoren und verstehen es, Andere gezielt zu beeinflussen und subtil für ihre eigenen Zwecke einzuspannen. Wortgewandt streuen sie Zweifel und Missgunst und zerstören Gemeinschaften von innen heraus. Ihre Verschwörungstheorien verleihen ihnen eine Vielzahl neuer Fähigkeiten, die auch im Kampf von großem Nutzen sein können. Zusätzlich verfügen sie über Zauber, die in allen Lebenslagen gewinnbringend eingesetzt werden können.
+
+\textbf{Gesinnung:} Beliebige, auch wenn Verschwörungstheoretiker meist düstere Motive haben und selten gut sind.
+
+\textbf{Trefferwürfel:} W8
+
+\subsection*{Klassenfertigkeiten}
+
+Auftreten (CH), Beruf (WE), Bluffen (CH), Diplomatie (CH), Einschüchtern (CH), Fliegen (GE), Handwerk (IN), Heimlichkeit (GE), Magischen Gegenstand benutzen (CH), Motiv erkennen (WE), Schätzen (IN), Verkleiden (CH), Wissen (Adel) (IN), Wissen (Arkanes) (IN), Wissen (Die Ebenen) (IN), Wissen (Geschichte) (IN), Wissen (Lokales) (IN), Wissen (Religion) (IN), Zauberkunde (IN).
+
+\textbf{Fertigkeitspunkte je Stufe:} 4 + IN-Modifikator
+
+\begin{table*}[htbp]
+	\centering
+	\caption{Verschwörungstheoretiker (VST)}
+	\label{tab:Verschwoerungstheoretiker}
+	\footnotesize
+	\begin{tabularx}{\textwidth}{
+			llc@{\hspace{\savevspace}}c@{\hspace{\savevspace}}cX
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c@{\hspace{\spellvspace}}
+			c}
+		\multicolumn{6}{c}{}	&\multicolumn{6}{c}{\textbf{Zauber pro Tag}}	\\
+		\textbf{Stufe}	&\textbf{GAB}	&\textbf{REF}	&\textbf{WIL}	&\textbf{ZÄH}	&\textbf{Speziell}	&\textbf{1.}	&\textbf{2.}	&\textbf{3.}	&\textbf{4.}	&\textbf{5.}	&\textbf{6.}	\\	\specialrule{\thicktableline}{\aboveline}{\belowline}
+		1		&+0			&+0		&+2		&+0		&Dummheit fokussieren 1W6, Dunning-Kruger-Effekt,\newline 1. Verschwörungstheorie
+		&1	&--	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		2		&+1			&+0		&+3		&+0		&Wokeness-Gabe
+		&2	&--	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		3		&+2			&+1		&+3		&+1		&Dummheit fokussieren 2W6, Das Glück ist mit die Doofen
+		&3	&--	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		4		&+3			&+1		&+4		&+1		&Wokeness-Gabe
+		&3	&1	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		5		&+3			&+1		&+4		&+1		&Dummheit fokussieren 3W6, Andersdenkende einschüchtern
+		&4	&2	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		6		&+4			&+2		&+5		&+2		&Wokeness-Gabe, Mentale Gymnastik
+		&4	&3	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		7		&+5			&+2		&+5		&+2		&2. Verschwörungstheorie, Dummheit fokussieren 4W6
+		&4	&3	&1	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		8		&+6/+1		&+2		&+6		&+2		&Wokeness-Gabe
+		&4	&4	&2	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		9		&+6/+1		&+3		&+6		&+3		&Dummheit fokussieren 5W6
+		&5	&4	&3	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		10		&+7/+2		&+3		&+7		&+3		&Wokeness-Gabe, Scheiß auf Fakten
+		&5	&4	&3	&1	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		11		&+8/+3		&+3		&+7		&+3		&Dummheit fokussieren 6W6
+		&5	&4	&4	&2	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		12		&+9/+4		&+4		&+8		&+4		&Wokeness-Gabe
+		&5	&5	&4	&3	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		13		&+9/+4		&+4		&+8		&+4		&Dummheit fokussieren 7W6
+		&5	&5	&4	&3	&1	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		14		&+10/+5		&+4		&+9		&+4		&Wokeness-Gabe
+		&5	&5	&4	&4	&2	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		15		&+11/+6/+1	&+5		&+9		&+5		&3. Verschwörungstheorie, Dummheit fokussieren 8W6
+		&5	&5	&5	&4	&3	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		16		&+12/+7/+2	&+5		&+10	&+5		&Wokeness-Gabe
+		&5	&5	&5	&4	&3	&1	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		17		&+12/+7/+2	&+5		&+10	&+5		&Dummheit fokussieren 9W6
+		&5	&5	&5	&4	&4	&2	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		18		&+13/+8/+3	&+6		&+11	&+6		&Wokeness-Gabe
+		&5	&5	&5	&5	&4	&3	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		19		&+14/+9/+4	&+6		&+11	&+6		&Dummheit fokussieren 10W6
+		&5	&5	&5	&5	&5	&4	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		20		&+15/+10/+5	&+6		&+12	&+6		&Wokeness-Gabe
+		&5	&5	&5	&5	&5	&5	\\	\specialrule{\thicktableline}{\aboveline}{\belowline}
+	\end{tabularx}
+\end{table*}
+
+\subsection*{Klassenmerkmale}
+
+Die nachfolgenden Fähigkeiten sind Klassenmerkmale des Verschwörungstheoretikers.
+
+\textbf{Umgang mit Waffen und Rüstungen:} Ein Verschwörungstheoretiker ist im Umgang mit allen einfachen Waffen und leichten Rüstungen, aber nicht mit Schilden geübt. Ein Verschwörungstheoretiker kann arkane Zauber ohne Zauberpatzerchance wirken, solange er keine oder leichte Rüstung und keinen Schild trägt.
+
+\textbf{Dummheit fokussieren:} Verschwörungstheoretiker sind Leuchtfeuer des Postfaktismus. Indem sie ihre innewohnende Ignoranz kanalisieren, erschaffen sie mächtige Manifestationen jener Wahnvorstellungen, nach denen sie ihr ganzes Dasein richten. Als Standard-Aktion, die keine Gelegenheitsangriffe provoziert, kann der Verschwörungstheoretiker ein Ziel in maximal 9\,m Entfernung auswählen und mit einem gezielten Dummheitsangriff 1W6 Punkte Schallschaden verursachen.
+
+Der Verschwörungstheoretiker kann diese Fähigkeit 3 + CH-Modifikator Mal pro Tag einsetzen. Dem Ziel steht ein Willenswurf gegen 10 + halbe Verschwörungstheoretikerstufe + CH-Modifikator zu, um den Schaden zu halbieren. Auf der dritten und jeder weiteren ungeraden Stufe erhöht sich der verursachte Schaden um 1W6, bis zu einem Maximum von 10W6 auf der 19. Stufe. Pro zusätzlichem Schadenswürfel kann außerdem ein weiteres Ziel von dem Effekt betroffen werden. Der Verschwörungstheoretiker kann auch sich selbst als Ziel bestimmen.
+
+Verschiedene Effekte können das Klassenmerkmal Dummheit fokussieren modifizieren. Sofern nicht explizit angegeben, kann jede Anwendung von Dummheit fokussieren nur mit einem dieser Effekte modifiziert werden, nicht mit mehreren. Falls ein zusätzlicher Effekt die Schadenswürfelanzahl des Fokussierens modifiziert, beeinflusst dies auch die Anzahl möglicher Ziele.
+
+\textbf{Dunning-Kruger-Effekt:} Ein Verschwörungstheoretiker wandelt Unwissen in Selbstvertrauen um. Er kann sämtliche Fertigkeitswürfe ungeübt durchführen, erleidet dabei allerdings einen Malus von -5 bei Fertigkeiten, die normalerweise nur geübt benutzt werden können und in denen er keinen Fertigkeitsrang besitzt.
+
+\textbf{Verschwörungstheorien:} Die Weltanschauung eines Verschwörungstheoretikers basiert auf kruden und an den Haaren herbeigezogenen Theorien, die meist aus Wahnvorstellungen oder boshafter Planung hervorgegangen sind und allgemeingültige Fakten in Frage stellen wollen. Sie dienen dazu, die Schuld an eigenem Versagen Anderen zuzuschieben und die eigene Unzufriedenheit in Form blinden Hasses auf beliebige Sündenböcke (idealerweise unterrepräsentierte Gruppen) umzuladen.
+
+Auf der 1. Stufe wählt der Verschwörungstheoretiker eine beliebige Verschwörungstheorie und erhält die in der Beschreibung angegebenen Vorteile. Auf der 7. Stufe wählt der Verschwörungstheoretiker eine zweite Verschwörungstheorie und auf der 15. Stufe eine dritte. Einige Verschwörungstheorien führen Voraussetzungen auf, die der Verschwörungstheoretiker erfüllen muss, um diese Theorie wählen zu dürfen.
+
+\textbf{Zauber:} Ein Verschwörungstheoretiker kann arkane Zauber wirken, die er aus der Zauberliste für Verschwörungstheoretiker auswählt. Er kann alle Zauber wirken,  die er kennt, ohne sie vorbereiten zu müssen. Um einen Zauber zu lernen oder um ihn anzuwenden, muss ein Verschwörungstheoretiker mindestens über ein Charisma von 10 + Grad des Zaubers verfügen. Der Schwierigkeitsgrad von Rettungswürfen gegen die Zauber des Verschwörungstheoretikers ist 10 + Grad des Zaubers + CH-Modifikator des Verschwörungstheoretikers.
+
+Wie andere Zauberkundige kann ein Verschwörungstheoretiker nur eine bestimmte Menge von Zaubern je Stufe pro Tag wirken. Seine tägliche Anzahl an Zaubern ist in \autoref{tab:Verschwoerungstheoretiker} angegeben. Zusätzlich erhält er Bonuszauber für einen hohen Charismawert. Die Zauberauswahl des Verschwörungstheoretikers ist sehr begrenzt.
+
+Ein Verschwörungstheoretiker beginnt das Spiel mit vier Zaubern des 0. Grads und zwei Zaubern des 1. Grads seiner Wahl. Jede Stufe erhält er einen oder mehrere Zauber hinzu, wie in \autoref{tab:Verschwoerungstheoretiker_bekannt} zu erkennen ist. (Anders als die tägliche Anzahl von Zaubern wird diese Zahl nicht durch das Charisma des Verschwörungstheoretikers verändert.)
+
+Wenn er die 5. Stufe erreicht, und dann alle drei weiteren Stufen (8., 11., usw.), kann der Verschwörungstheoretiker einen Zauber, den er kennt, gegen einen neuen austauschen. Er verliert dann den alten Zauber und ersetzt ihn durch einen neuen. Beide Zauber müssen den gleichen Grad haben und sie müssen mindestens einen Grad niedriger sein als der höchste Grad des Zaubers, den der Verschwörungstheoretiker zur Verfügung hat. Der Verschwörungstheoretiker kann auf einer Stufe aber nur einen Zauber wechseln und muss sich dafür entscheiden, sobald er neue Zauber erhält.
+
+Ein Verschwörungstheoretiker muss seine Zauber nicht vorbereiten, sondern kann jeden Zauber wirken, den er kennt, vorausgesetzt er hat noch ausreichend Zauber pro Tag zur Verfügung.
+
+\textbf{Wokeness-Gaben:} Neben allgemeinen Vorteilen gewähren Verschwörungstheorien Zugang zu einzigartigen Fähigkeiten, wenn der Verschwörungstheoretiker sich intensiv genug mit ihnen beschäftigt. Dieses Studium manifestiert sich in Form sogenannter Wokeness-Gaben. Auf jeder geraden Stufe kann der Verschwörungstheoretiker aus den von ihm gewählten Verschwörungstheorien eine Wokeness-Gabe wählen, deren Voraussetzungen er erfüllt.
+
+\textbf{Das Glück ist mit die Doofen:} Bekanntlich haben immer diejenigen besonderes Glück, die es zumindest aufgrund ihres Intellektes nicht verdient hätten. Auf der 3. Stufe erhält ein Verschwörungstheoretiker einen Glücksbonus von +1 auf alle Rettungswürfe. Dieser Bonus steigt auf der 10. Stufe auf +2 und auf der 17. Stufe auf +3.
+
+\textbf{Andersdenkende einschüchtern:} Ab der 5. Stufe ist der Verschwörungstheoretiker ein Experte darin, jedem Widerspruch mit Selbstvertrauen entgegenzutreten. Er kann auf Würfe für Bluffen und Diplomatie seinen Bonus für Einschüchtern anstatt des normalen Fertigkeitsbonus addieren.
+
+\textbf{Mentale Gymnastik:} Auf der 6. Stufe wählt der Verschwörungstheoretiker eine Wissensfertigkeit. Auf alle Würfe für diese Wissensfertigkeit darf er fortan anstatt des normalen Fertigkeitsbonus seinen Fertigkeitsbonus auf Akrobatik anrechnen. Alle 4 Stufen ab der 6. darf er eine weitere Wissensfertigkeit auswählen, für die er dieses Klassenmerkmal nutzen kann, bis zu einem Maximum von 4 Wissensfertigkeiten auf der 18. Stufe.
+
+\textbf{Scheiß auf Fakten:} Der Verschwörungstheoretiker hält sich für so intelligent, dass er selbst Dinge weiß, die er gar nicht weiß. Auf der 10. Stufe darf er drei Mal pro Tag als freie Aktion 20 auf einen Wissenwurf nehmen. Sollte er in dieser Wissensfertigkeit ungeübt sein oder sie im Rahmen von Mentale Gymnastik ausgewählt haben, erhält er auf diesen Wurf einen zusätzlichen Bonus von +5. Für jeweils drei Stufen nach der 10. darf er diese Fähigkeit ein weiteres Mal pro Tag anwenden, bis zu einem Maximum von 6 Mal auf der 19. Stufe.
+
+\textbf{Wahrer Postfaktismus:} Auf der 20. Stufe ist die Verleugnung der Fakten durch den Verschwörungstheoretiker so mächtig, dass sie die Realität selbst nach seinen Wünschen formen kann. Einmal pro Tag kann er eine Fähigkeit einer gegnerischen Kreatur im Rahmen einer freien Aktion ändern, einfach indem er es sich wünscht. Er kann bspw. die Kreaturenart in Bezug auf bestimmte Effekte ändern, eine Immunität gegen ein bestimmtes Element außer Kraft setzen oder ähnlich mächtige Änderungen erzielen, wobei es im Ermessen des Spielleiters liegt, was möglich ist und was nicht.
+
+Dieser Effekt hält eine Stunde an. Dem Ziel steht ein Willenswurf gegen 10 + halbe Verschwörungstheoretikerstufe + CH-Modifikator des Verschwörungstheoretikers zu, um den Effekt zu verhindern. Unabhängig vom Erfolg des Rettungswurfes ist die Kreatur anschließend für 24 Stunden gegen diese Fähigkeit immun.
+
+%\textbf{Wahrer Postfaktismus:} Auf der 20. Stufe ist die Verleugnung der Fakten durch den Verschwörungstheoretiker so mächtig, dass sie die Realität selbst nach seinen Wünschen formen kann. Sollte einer gegnerischen Kreatur in maximal 9\,m Entfernung von ihm ein Angriffs- oder Rettungswurf gelingen, kann er den Gegner als augenblickliche Aktion zwingen, den Wurf zu wiederholen und das schlechtere Ergebnis zu behalten. Er kann diese Fähigkeit 5 Mal täglich einsetzen.
+
+
+
+\begin{table}[htbp]
+	\centering
+	\caption{Dem Verschwörungstheoretiker bekannte Zauber}
+	\label{tab:Verschwoerungstheoretiker_bekannt}
+	\footnotesize
+	\begin{tabularx}{0.4\textwidth}{lXXXXXXX}
+		\multicolumn{1}{c}{}	&\multicolumn{7}{c}{\textbf{Grad bekannter Zauber}}	\\
+		\textbf{Stufe}	&\textbf{0.}	&\textbf{1.}	&\textbf{2.}	&\textbf{3.}	&\textbf{4.}	&\textbf{5.}	&\textbf{6.}	\\	\specialrule{\thicktableline}{\aboveline}{\belowline}
+		1	&4	&2	&--	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		2	&5	&3	&--	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		3	&6	&4	&--	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		4	&6	&4	&2	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		5	&6	&4	&3	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		6	&6	&4	&4	&--	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		7	&6	&5	&4	&2	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		8	&6	&5	&4	&3	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		9	&6	&5	&4	&4	&--	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		10	&6	&5	&5	&4	&2	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		11	&6	&6	&5	&4	&3	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		12	&6	&6	&5	&4	&4	&--	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		13	&6	&6	&5	&5	&4	&2	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		14	&6	&6	&6	&5	&4	&3	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		15	&6	&6	&6	&5	&4	&4	&--	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		16	&6	&6	&6	&5	&5	&4	&2	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		17	&6	&6	&6	&6	&5	&4	&3	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		18	&6	&6	&6	&6	&5	&4	&4	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		19	&6	&6	&6	&6	&5	&5	&4	\\	\specialrule{\thintableline}{\aboveline}{\belowline}
+		20	&6	&6	&6	&6	&6	&5	&5	\\	\specialrule{\thicktableline}{\aboveline}{\belowline}
+	\end{tabularx}
+\end{table}
+
+\subsection*{Verschwörungstheorien}
+
+\textcolor{red}{Work in progress}
+
+\textcolor{red}{Mögliche spieltechnische Konzepte für die Verschwörungstheorien: Blaster, Tank, Buffer, Debuffer, Area Control, Heiler, Debuff-Purger}
+
+Vorteile, die jede Verschwörungstheorie bringt: Ein Bonustalent, eine zusätzliche Klassenfertigkeit, 1-2 besondere Fähigkeiten/Boni
+
+\subsubsection*{Weltverschwörung}
+
+Niemand außer Dir scheint die Zeichen zu erkennen und die doch so offensichtlichen Hinweise miteinander verknüpfen zu wollen, doch es ist glasklar: Die Welt wird im Hintergrund von einer mysteriösen Geheimgesellschaft gelenkt, und die Machthaber und Herrscher sind nichts weiter als Marionetten, die an den Fäden der Verschwörer tanzen.
+
+Wenn der Verschwörungstheoretiker diese Theorie auswählt, wählt er eine Kreaturenart von der Erzfeindliste des Waldläufers. Gegen derartige Kreaturen erhält er einen Erzfeindbonus von +1 auf Angriffs- und Schadenswürfe. Dieser Bonus ist nicht kumulativ mit anderen Fähigkeiten, die Erzfeindboni gewähren. Auf der 10. Stufe steigt dieser Erzfeindbonus um +1 und auf der 20. um weitere +1.
+
+\vspace{-3ex}
+
+\subsubsection*{Wokeness-Gaben}
+
+\textbf{Brennender Hass:} Der Hass des Verschwörungstheoretikers gegen die herrschende Klasse ist besonders ausgeprägt. Er erhöht seinen Erzfeindbonus gegen die im Rahmen dieser Verschwörungstheorie gewählte Kreaturenart um +1. Er kann diese Wokeness-Gabe bis zu drei Mal wählen, was den Bonus jeweils um weitere +1 erhöht. Der Verschwörungstheoretiker muss mindestens die 6. Stufe erreicht haben, um diese Wokeness-Gabe zu wählen.
+
+\textbf{Kämpferausbildung:} Der Verschwörungstheoretiker erhält Umgang mit mittelschwerer Rüstung und mit Kriegswaffen.
+
+\textbf{Hasserfüllte Zauber:} Wenn der Verschwörungstheoretiker einen Zauber gegen einen im Rahmen dieser Verschwörungstheorie gewählten Erzfeind einsetzt, der Trefferpunkteschaden verursacht, erhält er einen Schadensbonus von +1 pro Schadenswürfel des Zaubers gegen alle Ziele des Zaubers, gegen die er den Erzfeindbonus anwenden darf.
+
+\textbf{Maskierung durchschauen:} Gegen die im Rahmen dieser Verschwörungstheorie gewählten Erzfeinde erhält der Verschwörungstheoretiker einen Bonus von +5 auf Würfe für Wahrnehmung, um Verkleidungen und Gestaltwandeleffekte zu durchschauen.
+
+\textbf{Gedankenkontrolle widerstehen:} Der Verstand des Verschwörungstheoretikers ist abgehärtet. Gegen Verzauberungseffekte der Kategorien Bezauberung und Zwang erhält er einen Bonus von +2 auf alle Rettungswürfe.
+
+
+
+\subsubsection*{Flacherdler}
+
+Die wahre geometrische Beschaffenheit der Welt wird dem Verschwörungstheoretiker deutlich. Er und seine Verbündeten sind in der Lage, in schwierigem Gelände zu rennen.
+
+\vspace{-3ex}
+
+\subsubsection*{Wokeness-Gaben}
+
+\textbf{Gabe:} Gabentext
+
+\textbf{Gabe:} Gabentext
+
+\textbf{Gabe:} Gabentext
+
+\textbf{Gabe:} Gabentext
+
+\textbf{Gabe:} Gabentext
+
+\textbf{Gabe:} Gabentext
+
+
+
+\subsubsection*{Reichsbürger}
+
+\subsubsection*{Klimawandel}
+
+\subsubsection*{Alternative Medizin}
+
+\subsubsection*{Außerirdische}
+
+
+
+\subsubsection*{Chemtrails} Resistenz gegen Gifte und/oder Boni gegen fliegende Gegner?
+
+\subsubsection*{Brunnenvergiftung}
+
+\subsubsection*{QAnon}
+
+\subsubsection*{Reichsflugscheiben}
+
+\subsubsection*{Mondlandung} (Mit dem Twist, dass nun jemand dort LEBT)
+
+\subsubsection*{Leugnung einer bestimmten Krankheit}
+
+\subsubsection*{Area 51}
+
+\subsubsection*{Umvolkung}
+
+\subsubsection*{Implantierung von Überwachungschips}
+
+\subsubsection*{Holocaustleugnung}
+
+\subsection*{Verschwörungstheoretikerzauber}
+
+\textcolor{red}{Work in progress}
+
+\subsubsection*{Verschwörungstheoretikerzauber des Grades 0}
+
+Arkanes Siegel, 
+
+\subsubsection*{Verschwörungstheoretikerzauber des Grades 1}
+
+
+
+\subsubsection*{Verschwörungstheoretikerzauber des Grades 2}
+
+
+
+\subsubsection*{Verschwörungstheoretikerzauber des Grades 3}
+
+
+
+\subsubsection*{Verschwörungstheoretikerzauber des Grades 4}
+
+
+
+\subsubsection*{Verschwörungstheoretikerzauber des Grades 5}
+
+
+
+\subsubsection*{Verschwörungstheoretikerzauber des Grades 6}
+
+
+
+
+
+\subsection*{Archetypen-Ideensammlung}
+
+Rechtsradikaler, Antisemit, Coronaleugner, Aluhutträger, Chemtrailer, Abtreibungsgegner
+
+Karen: Offensiv, und durch lautes Fluchen und Beschweren in der Lage, Debuffs zu verteilen.
+
+Hetzer: Kann ein gegnerisches Ziel auswählen und alle seine Verbündeten bekommen Boni gegen dieses Ziel.
+
+%\textbf{Dunning-Kruger-Effekt:} Ein Verschwörungstheoretiker wandelt Unwissen in Selbstvertrauen um. Wenn er bei einem Wissenswurf scheitert, um eine gegnerische Kreatur zu identifizieren, erhält er für eine Minute einen Verständnisbonus von +1 auf die Rüstungsklasse gegenüber diesem Gegner. Er kann dies pro Kampf und pro Wissensfertigkeit nur einmal tun und der Bonus gilt nur gegen die Kreatur, für die der Wurf gemacht wurde, nicht für etwaige gleichartige Kreaturen im selben Kampf. Eine Kreatur ist unabhängig vom Erfolg des Wurfes für 24 Stunden immun gegen diese Fähigkeit. Der Verschwörungstheoretiker kann auf einen derartigen Wurf niemals 10 oder 20 nehmen. Der Bonus steigt auf der 5. Stufe auf +2 und alle weiteren 5 Stufen um weitere +1 bis zu einem Maximum von +5 auf der 20. Stufe.
+
+%\textbf{Wer schreit hat Recht:} Ab der 9. Stufe kann ein Verschwörungstheoretiker zwei Mal pro Tag Brüllen als zauberähnliche Fähigkeit einsetzen. Die Zauberstufe entspricht seiner Verschwörungstheoretikerstufe. und der SG des Rettungswurfes basiert auf Charisma.
+
+\subsection*{Zauber}
+
+\onecolumn
+
+	\subsubsection*{Einstweilige Verfügung}
+	
+	\begin{tabular}{p{0.2\textwidth}p{0.75\textwidth}}
+		\textbf{Grad}				&VST 2	\\
+		\textbf{Schule}				&Verzauberung [Geistesbeeinflussung]	\\
+		\textbf{Zeitaufwand}		&1 Standard-Aktion	\\
+		\textbf{Komponenten}		&V, G, F (Ein Blatt Papier und eine Schreibfeder)	\\
+		\textbf{Reichweite}			&Nah (7,50\,m + 1,50\,m/2 Stufen)	\\
+		\textbf{Ziel}				&Eine Kreatur pro 2 Stufen	\\
+		\textbf{Wirkungsdauer}		&1 Runde/Stufe	\\
+		\textbf{Rettungswurf}		&WIL, siehe Text; \textbf{Zauberresistenz}: Ja	\\
+	\end{tabular}
+	
+	\medskip
+	
+	Mithilfe obskurer Drohungen von Anwälten, Richtern und Prozesskosten verunsicherst Du Deine Ziele und hältst sie davon ab, Dir gegenüber handgreiflich zu werden, selbst wenn Du es bitter verdient hättest. Während der Zauber wirkt, muss das Ziel jedes Mal, wenn es Dich im Nahkampf angreifen will, einen Willenswurf bestehen, ansonsten schlägt der Angriff automatisch fehl. Ein bestandener Willenswurf beendet den Zauber allerdings nicht. Fernkampfangriffe oder Berührungsangriffe im Fernkampf sind von \textit{Einstweilige Verfügung} nicht betroffen.
+
+\end{document}
