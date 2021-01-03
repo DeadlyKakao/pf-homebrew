@@ -1,0 +1,80 @@
+\documentclass[
+	ngerman,
+	a4paper,
+	11pt,
+	twocolumn,
+]{scrartcl}
+
+\usepackage[T1]{fontenc}		% aus Vorlage: Darstellung von Umlauten
+\usepackage{babel}				% aus Vorlage: Vorgaben auf Deutsch (Inhaltsverzeichnis, Datum, Silbentrennung...)
+%\usepackage[utf8]{inputenx}		% Deutsche Schreibweisen
+
+\usepackage[scale=0.8]{geometry}
+\usepackage{float}
+\usepackage{booktabs}			% Unterschiedlich starke horizontale Linien in Tabellen
+\usepackage{caption}
+\usepackage{tabularx}
+\usepackage{xcolor}
+
+\usepackage{opensans}
+
+%\usepackage{hyperref}
+
+\captionsetup[table]{justification=justified,singlelinecheck=off,labelfont=bf}
+
+\newlength{\thicktableline}
+\newlength{\thintableline}
+\newlength{\aboveline}
+\newlength{\belowline}
+\setlength{\thicktableline}{1pt}
+\setlength{\thintableline}{0.25pt}
+\setlength{\aboveline}{0pt}
+\setlength{\belowline}{0pt}
+
+\newlength{\savevspace}
+\newlength{\spellvspace}
+\setlength{\savevspace}{1ex}
+\setlength{\spellvspace}{1ex}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\setkomafont{section}{\huge\normalfont\bfseries}
+
+\begin{document}
+
+\section*{Wesenszüge}
+
+\rule[2ex]{0.49\textwidth}{1pt}
+
+% Mögliche Kategorien für Wesenszüge:
+% Kampf, Sozial, Glaube, Magie, Kampagne, Regional, Volk, Religion (bestimmte Gottheit), Familie, Ausrüstung
+
+\textbf{Herumgekommen (Sozial):} \textit{Voraussetzung: Du beherrschst entweder Doresseanisch oder Dolarisch.} Du hast viele Orte auf Jarur bereist und über mehrere Jahre auch die Sprache gelernt, die nicht Deine Muttersprache ist. Du beherrschst automatisch die jeweils andere Sprache und erhältst +1 auf Sprachenkunde.
+
+\textbf{Nordreisender (Sozial):} Du hast die nördlichen Inseln mehrfach besucht und bist mit der Sprache und den Bräuchen vertraut. Du erhältst +1 auf Sprachenkunde und beherrschst die Sprache Nordisch. In Regionen, in denen vorrangig Nordisch gesprochen wird, erhältst Du außerdem +1 auf Wissen (Lokales).
+
+\textbf{Kriegswaise (Sozial):} Deine Eltern sind in einem kriegerischen Konflikt umgekommen, sodass du lange auf dich allein gestellt warst/dich um deine Geschwister kümmern musstest. Du erhältst +1 auf Überlebenskunst und Überlebenskunst ist immer eine Klassenfertigkeit für Dich.
+
+\textbf{Händlerkultur (Regional):} Du bist in einem der doresseanischen Nachfolgestaaten aufgewachsen und dir steckt der Handel im Blut. Du bekommst +1 auf Diplomatie und Schätzen, so lange Du Dich in einer Region aufhältst, in der vorrangig Doresseanisch gesprochen wird.
+
+\textbf{Das beste aus zwei Welten (Volk):} Du bist in Dolaris aufgewachsen und erhältst als Mensch +2 auf Wahrnehmung oder als Elf oder Halbelf +1 auf zwei beliebige Fertigkeiten oder +2 auf eine beliebige Fertigkeit.
+
+\textbf{Schutzengel (Kampf):} Du bist in Deiner Kindheit dem Tod nur knapp entronnen. Sei es ein Unfall oder eine gefährliche Krankheit gewesen. Du erhältst einen Bonus von +5 auf Konstitutionswürfe, um Dich zu stabilisieren, wenn Deine TP unter 0 fallen.
+
+\textbf{Fassadenkletterer (Sozial):} In Deiner Kindheit bist Du allein oder mit Freunden häufig in der Stadt unterwegs gewesen und Mauern und Wände hinauf- und heruntergeklettert. Du erhältst einen Bonus von +1 auf Klettern und Klettern ist immer eine Klassenfertigkeit für Dich.
+
+\textbf{Wetterresistent (Sozial):} Du bist in einer unwirtlichen Gegend aufgewachsen, in dem Du extremen Witterungsbedingungen trotzen musstest. Du erhältst einen Bonus von +2 auf alle Rettungswürfe gegen Wetter- und Erschöpfungseffekte.
+
+\textbf{Kriegerkultur (Kampf):} Du bist in einer Gesellschaft aufgewachsen, die in großem Maße von Plünderungen lebt und dementsprechend Stärke schätzt. Du erhältst +1 auf Einschüchtern und Einschüchtern ist immer eine Klassenfertigkeit für Dich.
+
+\textbf{Seefahrer (Sozial):} Du bist schon als Kind zur See gefahren und hast einen ausgezeichneten Orientierungssinn. Du bekommst +3 auf Überlebenskunst, wenn Du versuchst, Dich zu orientieren. Auf See oder bei sichtbarem Sternenhimmel erhöht sich dieser Bonus auf +5.
+
+\textbf{Student (Sozial):} Du hast unzählige Bücher gewälzt, um Dein Verlangen nach neuem Wissen zu stillen. Du erhältst +1 auf eine beliebige (Wissen)-Fertigkeit. Diese Fertigkeit ist außerdem immer eine Klassenfertigkeit für Dich.
+
+\textbf{Geschickte Finger (Sozial):} Deine Geschicklichkeit hat Dich so manches Mal aus einer misslichen Lage befreit. Du erhältst +1 auf Entfesselungskunst oder Fingerfertigkeit. Die gewählte Fertigkeit ist außerdem immer eine Klassenfertigkeit für Dich.
+
+\textbf{Tierflüsterer (Sozial):} Auf Deinen Reisen durch Unia bist Du oft mit Tieren in Kontakt gekommen und hast viel über die Fauna gelernt. Du erhältst +1 auf Mit Tieren umgehen und mit Tieren umgehen ist immer eine Klassenfertigkeit für Dich.
+
+\textbf{Experimentierfreudig (Sozial):} Schon als Kind hast Du alles, was Dir in die Hände fiel, genau untersucht, um zu verstehen, wie es funktioniert. Du erhältst +1 auf Mechanismus ausschalten oder Magischen Gegenstand benutzen (Deine Wahl). Die gewählte Fertigkeit ist außerdem immer eine Klassenfertigkeit für Dich.
+
+\end{document}
